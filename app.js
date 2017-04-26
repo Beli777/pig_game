@@ -31,7 +31,7 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
       roundScore += dice;
       document.querySelector('#current-' + activePlayer).textContent = roundScore;
     }else{
-      // Next Player
+      alert("You got 1! Next player throws");
       nextPlayer();
     }
   }
